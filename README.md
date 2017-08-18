@@ -1,5 +1,5 @@
 # CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
+Self-Driving Car Engineer Nanodegree Program solution from Juan Luis Vivas Occhipinti
 
 ---
 
@@ -90,3 +90,57 @@ that's just a guess.
 
 One last note here: regardless of the IDE used, every submitted project must
 still be compilable with cmake and make./
+
+## Project Rubric
+
+<b>Compilation</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>Your code should compile.</td>
+		<td>Yes, the code compile without any error.</td>
+	</tr>
+</table>
+
+<b>Implementation</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>The PID procedure follows what was taught in the lessons.</td>
+		<td>Yes, the PID controller follow the information learned in the leasson.</td>
+	</tr>
+</table>
+
+<b>Reflection</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>Describe the effect each of the P, I, D components had in your implementation.</td>
+		<td>The P, I and D component implementation were implemente as described in the previous unit, as we saw in the units this implementation predict really well how to drive inside of the track.</td>
+	</tr>
+	<tr>
+		<td>Describe how the final hyperparameters were chosen.</td>
+		<td>After some random playing with the parameters we realized the best one to chose.</td>
+	</tr>	
+</table>
+
+<b>Simulation</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>The vehicle must successfully drive a lap around the track.</td>
+		<td>Yes, the vehicle is driving sucefully inside of the track.</td>
+	</tr>
+</table>
