@@ -29,11 +29,15 @@ public:
 
   /*
   * Initialize PID.
+  * @param double Kp proportional value
+  * @param double Ki integral value
+  * @param double Kd derivate value
   */
   void Init(double Kp, double Ki, double Kd);
 
   /*
   * Update the PID error variables given cross track error.
+  * @param double cte value
   */
   void UpdateError(double cte);
 
