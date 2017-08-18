@@ -20,7 +20,7 @@ void PID::Init(double Kp, double Ki, double Kd) {
 
 	this->Kp = Kp;
 	this->Ki = Ki;
-	this->Kd = kd;
+	this->Kd = Kd;
 
 	this->p_error = 0.0;
 	this->i_error = 0.0;
